@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import UserList from './components/UserList';
+import FAQ from './components/faq';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       </header>
 
       <main>
-        <UserList />
+        <FAQ />
       </main>
     </div>
   );

@@ -9,7 +9,7 @@ const api = axios.create({
 });
 
 export const getUsers = () => api.get('/users');
-export const getUserById = (id) => api.get('/users/$(id');
+export const getUserById = (id) => api.get('/users/$(id)');
 
 export const fetchWithErrorHandling = async (axiosCall) => {
     try {
