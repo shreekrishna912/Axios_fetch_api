@@ -1,0 +1,13 @@
+.container {
+  width: 500px;
+  height: 200px;
+  border: #61dafb;
+}
+.tabs-item {
+  border-radius: 22px;
+  display: inline-flex;
+  column-gap: 20px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}

@@ -1,17 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import UserList from './components/UserList';
-import FAQ from './components/faq';
+import Taabss from './components/Taabss';
+// import Tabbers from "./components/Tabbers"
 
 function App() {
   return (
     <div className="App">
       <header>
-        <h1>Simple React + Axios Demo</h1>
+        <h1>Simple React</h1>
       </header>
 
       <main>
-        <FAQ />
+        <Taabss />
+        {/* <Tabbers /> */}
       </main>
     </div>
   );

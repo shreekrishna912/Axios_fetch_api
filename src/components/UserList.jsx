@@ -7,7 +7,6 @@ export default function UserList() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    
     const fetchUsers = async () => {
       try {
         setLoading(true);

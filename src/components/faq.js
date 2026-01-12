@@ -13,6 +13,7 @@ const FAQ = () => {
         <FaPlus />
         
         </button>
+        
 
         {open && (
           <div className="faq-answer">
